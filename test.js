@@ -6,5 +6,6 @@ function main(a, b) {
     doSomethingElse();
   }
 
+
   return a == null;
 }
