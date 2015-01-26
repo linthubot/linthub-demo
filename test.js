@@ -7,6 +7,6 @@ function main(a, b) {
   case "two":
     doSomethingElse();
   }
-// test for deleting old comments.
+// test for deleting old comments. 
   return a == null;
 }
