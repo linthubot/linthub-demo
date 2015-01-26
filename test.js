@@ -8,5 +8,6 @@ function main(a, b) {
     doSomethingElse();
   }
 // test for deleting old comments. 
+
   return a == null;
 }
