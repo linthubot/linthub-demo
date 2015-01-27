@@ -5,6 +5,7 @@ function main(a, b) {
   case "three":
     doSomethingElse();
   case "two":
+    
     doSomethingElse();
   }
   
