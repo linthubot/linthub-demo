@@ -25,3 +25,5 @@ function main(a, b) {
 ```
 
 For any questions, contact us at @dutchcoders or hello@linthub.io
+
+Hello world!
