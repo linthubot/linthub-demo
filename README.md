@@ -4,7 +4,7 @@ Be free to fork this repository, do some updates and create a pull request. Our 
 
 Only the files included in the commit will be checked, so for example add a hello.java.
 
-''test.js''
+**test.js**
 ```
 function main(a, b) {
   switch (cond) {
