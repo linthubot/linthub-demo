@@ -24,4 +24,6 @@ function main(a, b) {
 }
 ```
 
-For any questions, contact us at @dutchcoders or hello@linthub.io
+An example pull request with line comments can be found at: https://github.com/linthubot/linthub-demo/pull/1.
+
+For any questions, contact us at @dutchcoders or hello@linthub.io.
