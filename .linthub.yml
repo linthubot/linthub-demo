@@ -4,6 +4,7 @@ php:
   lint: true
 java: 
   lint: true
+  config: # google_checks.xml (default) | sun_checks.xml 
 shell:
   lint: true
 css:
