@@ -11,7 +11,7 @@ function main(a, b) {
   
 // test for deleting old comments. 
 
-// eslint test7
+// eslint test8
   return a == null;
 }
 
