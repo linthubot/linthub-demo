@@ -11,7 +11,6 @@ function main(a, b) {
   
 // test for deleting old comments. 
 
-
   return a == null;
 }
 
