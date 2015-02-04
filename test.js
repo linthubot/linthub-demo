@@ -9,7 +9,7 @@ function main(a, b) {
   }
   
 // test for deleting old comments. 
-// test to show pull request comments 2
+// test to show pull request comments 3
 // eslint test9
   return a == null;
 }
