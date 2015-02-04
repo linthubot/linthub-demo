@@ -8,7 +8,7 @@ function main(a, b) {
     doSomethingElse();
   }
   
-// test to show pull request comments 4
+// test to show pull request comments 5
 // eslint test9
   return a == null;
 }
