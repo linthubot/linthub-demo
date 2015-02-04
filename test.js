@@ -5,12 +5,11 @@ function main(a, b) {
   case "three":
     doSomethingElse();
   case "two":
-    
     doSomethingElse();
   }
   
 // test for deleting old comments. 
-
+// test to show pull request comments
 // eslint test9
   return a == null;
 }
