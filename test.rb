@@ -5,6 +5,4 @@ def badName
                           end
 
 
-# test for status,3
-
-
+# test for status,4
