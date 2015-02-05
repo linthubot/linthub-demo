@@ -1,5 +1,5 @@
 def badName
-                  if something
+ if something
                       test
                           end
                           end
