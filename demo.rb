@@ -11,3 +11,7 @@ if true ; puts "first";puts "second";end
 
 if true
 puts "true";#end
+
+loop {
+
+}
