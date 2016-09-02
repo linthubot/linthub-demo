@@ -1,0 +1,67 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+
+<dom-module id="dabih-ajax-get">
+  <template>
+    <iron-ajax id="request"
+               url="{{_computeUrl(url)}}"
+               handle-as="json"
+               on-response="_response"
+               on-error="_error"
+               loading="{{loading}}"
+               headers="{{_buildHeader(token)}}">
+    </iron-ajax>
+
+  </template>
+</dom-module>
+
+<script>
+  Polymer({
+    is: 'dabih-ajax-get',
+    properties: {
+      token: String,
+      url: String,
+      loading: {
+        type: Boolean,
+        notify: true
+      }
+    },
+    go: function() {
+      this.debounce('generateRequest-' + this.url, function() {
+
+        this.$.request.generateRequest();
+      }, 400);
+    },
+    _buildHeader: function(token) {
+      return {
+        "X-Requested-With": 'XMLHttpRequest',
+        "Authorization": 'Basic ' + token
+      };
+    },
+    _computeUrl: function(url) {
+      return 'https://app-api.trinnvis.no/organizations/' + url;
+    },
+    _response: function(event, response) {
+      var e = response.response;
+      this.fire('ajax-get-response', e);
+    }
+  });
+
+function main(a, b) {
+  switch (cond) {
+  case "one":
+    doSomething(); // JSHint will warn about missing 'break' here.
+  case "three":
+    doSomethingElse();
+  case "two":
+
+    doSomethingElse();
+  }
+
+// test for deleting old comments. 
+
+
+  return a == null;
+}
+
+</script>
