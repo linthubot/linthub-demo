@@ -35,7 +35,7 @@ static void handleInterrupt(int sig) {
 }
 
 static void execute_single(Traverser &traverser, bool stopOnFirst) {
-	while (!traverser.exhausted()) {
+	{while (!traverser.exhausted()) {
 		Task task;
 		TID taskId = traverser.next(task);
 		if (taskId == 0 || !task) {
@@ -51,7 +51,7 @@ static void execute_single(Traverser &traverser, bool stopOnFirst) {
 		} else if (stopOnFirst) {
 			return;
 		}
-	}
+	}}
 }
 
 static void execute_multiple(Traverser &traverser, int count, bool stopOnFirst) {
@@ -131,3 +131,9 @@ void bin::execute(Traverser &traverser, int count, bool stopOnFirst) {
 	}
 	Report::buildEnd(traverser.exhausted());
 }
+
+;
+;
+;
+#ifndef HI
+#endif
