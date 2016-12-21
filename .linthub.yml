@@ -1,17 +1,2 @@
-go:
+python:
   lint: true
-php:
-  lint: true
-java: 
-  lint: true
-  config: # google_checks.xml (default) | sun_checks.xml 
-scala:
-  lint: true
-shell:
-  lint: true
-css:
-  lint: true
-js: 
-  lint: eslint # jshint (default) | eslint | false
-  #.config .eslintrc
-  
