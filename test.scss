@@ -1,0 +1,15 @@
+.tt {
+  margin: 5px 0 0 0 0;
+  padding: -7px;
+  @include test;
+  
+  font-weight: 9999;
+  overflovv: hidden;
+  
+  @extend .ttt-2;
+  
+  &_test {
+   float: right;
+   margin: 0 0 0 0;
+  }
+}
