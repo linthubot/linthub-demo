@@ -8,3 +8,7 @@ const b = 5;
 b = a;
 
 sdfsf();
+
+sfdfsf
+
+[] + {} * 2 ----- dfgdfgdfgdgf
