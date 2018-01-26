@@ -12,5 +12,11 @@ function main(a, b) {
 // test for deleting old comments. 
 
 
-  return a == null;
+  return a == null
+}
+function notmain (b, c){
+  if c === null
+  {return b == null}
+  else
+    5 == 5
 }
