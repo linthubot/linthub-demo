@@ -7,8 +7,11 @@ function main(a, b) {
   case "two":
     
     doSomethingElse();
+ 
+  case "one million":
+ 
+     notmain();
   }
-  
 // test for deleting old comments. 
 
 
