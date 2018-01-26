@@ -14,3 +14,9 @@ function main(a, b) {
 
   return a == null
 }
+function notmain (b, c){
+  if c === null
+  {return b == null}
+  else
+    5 == 5
+}
